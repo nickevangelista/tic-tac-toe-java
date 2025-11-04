@@ -5,7 +5,7 @@ public class TicTacToe {
         char[] board = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
         var numberOfSquaresPlayed = 0;
         var whoseTurnItIs = 'x';
-        var scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         while (numberOfSquaresPlayed < 9) {
             printTheBoard(board);
